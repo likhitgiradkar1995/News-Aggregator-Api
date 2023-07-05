@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "ydy0IvDkW",
+      "name": "Likhit",
+      "email": "likhit1234@gmail.com",
+      "password": "$2b$08$WZBCqBXTIigbXXg4ab9CzuiF8Hr2praBlFTnsg222inpWtOvYFi4G",
+      "preference": "sport"
+    },
+    {
+      "id": "vV3-mcEYh",
+      "name": "Lokesh",
+      "email": "likhit1@gmail.com",
+      "password": "$2b$08$P1CQ9CHWz16uk3NEQthA.uVzmNj7l2ty6RpAp4A9rhff5KuEp74IS",
+      "preference": " health"
+    }
+  ]
+}
