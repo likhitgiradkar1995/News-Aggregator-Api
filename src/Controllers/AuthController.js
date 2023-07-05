@@ -145,6 +145,7 @@ const getNews = async (preference) => {
       "X-RapidAPI-Host": "news-api14.p.rapidapi.com",
     },
   };
+
   try {
     const response = await axios.request(options);
     if (response?.data) {
