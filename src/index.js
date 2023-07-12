@@ -1,14 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const { register, login } = require("./Controllers/AuthController");
+const verifyToken = require("./Middleware/authJWT");
 const {
-  register,
-  login,
   preference,
   updatePreference,
   news,
-} = require("./Controllers/AuthController");
-const verifyToken = require("./Middleware/authJWT");
+} = require("./Controllers/NewsController");
 const routes = require("express").Router();
 require("dotenv").config();
 
